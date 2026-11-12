@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ruff_cache/
+
+# Compilation PyInstaller et livrables
+build/
+dist/
+release/
+*.spec
+*.exe
+
+# Sorties et caches de traduction
+traductions/
+.cache/
+apercus/
+rapports/
+
+# PDF de travail (les tests génèrent les leurs)
+*.pdf
